@@ -18,6 +18,7 @@ html, body {
 .wrapper {
 	width: 85%;
 	margin: 0 auto;
+	position: relative;
 }	
 
 .top-block {
@@ -26,14 +27,24 @@ html, body {
 }
 
 .text1 {
-	text-align: center;
+	line-height: 1.2em;
 	padding: 30px;
-	margin: 30px 0;
+	margin: 30px 0 0;
+	font-size: .8em;
+	font-family: Helvetica, sans-serif:
+}
+
+.buttons {
+	width: 15%;
+	text-align: center;
+	display: inline-block;
+	margin: 0 15px 25px 25px;
 }
 
 .red-button {
 	background-color: #d0021b;
 	padding: 5px 0;
+	
 }
 
 .blue-button {
@@ -41,6 +52,46 @@ html, body {
 	padding: 5px 0;
 }
 
-.buttons p {
+.buttons h5 {
 	color: white;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+   background: #414649;
+}
+
+.second {
+	background-color: #fff;
+	position: absolute;
+}
+
+.dark {
+	width: 80%;
+	background-color: #414649;
+	color: white;
+	margin: 20px auto;
+	padding:30px 0 40px;
+	text-align: center;
+	
+}
+
+span {
+	color: white;
+	float: right;
+	margin: 30px;
+}
+
+.second p {
+	color: black;
+	line-height: 1.2em;
+	padding: 30px;
+	margin: 30px 0 0;
+	font-size: .8em;
+	font-family: Helvetica, sans-serif:
+
 }
